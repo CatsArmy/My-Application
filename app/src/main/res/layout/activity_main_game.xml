@@ -534,7 +534,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btnOnline"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -550,7 +550,7 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnBot"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
@@ -566,7 +566,7 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnLocal"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="8dp"
