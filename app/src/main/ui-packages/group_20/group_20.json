@@ -1,0 +1,2893 @@
+{
+  "name": "group_20",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "t3GDF1jFq3L6GgGWZHRYVS",
+    "node": "113:3",
+    "version": "2146068350010807393",
+    "component-id": "fd45c3a5765e5c44b53e9e4ada4e70cf58fc2429"
+  },
+  "default": "Group 20",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "group",
+        "id": "board"
+      },
+      {
+        "type": "group",
+        "id": "stuff"
+      },
+      {
+        "type": "group",
+        "id": "Group 6"
+      },
+      {
+        "type": "group",
+        "id": "Group 11"
+      },
+      {
+        "type": "group",
+        "id": "Group 12"
+      },
+      {
+        "type": "group",
+        "id": "Group 13"
+      },
+      {
+        "type": "group",
+        "id": "Group 14"
+      },
+      {
+        "type": "group",
+        "id": "Group 15"
+      },
+      {
+        "type": "group",
+        "id": "Group 16"
+      },
+      {
+        "type": "group",
+        "id": "Group 7"
+      },
+      {
+        "type": "group",
+        "id": "Group 17"
+      },
+      {
+        "type": "group",
+        "id": "Group 18"
+      },
+      {
+        "type": "group",
+        "id": "Group 19"
+      },
+      {
+        "type": "group",
+        "id": "Group 8"
+      },
+      {
+        "type": "group",
+        "id": "Group 9"
+      },
+      {
+        "type": "group",
+        "id": "Group 10"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 5"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 8"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 9"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 10"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 11"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 12"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 13"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 14"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 15"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 16"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 17"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 18"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 19"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 20"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 21"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 22"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 23"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 24"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 25"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 26"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 27"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 28"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 29"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 30"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 31"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 32"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 33"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 34"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 35"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 36"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 37"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 38"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 39"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 40"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 41"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 42"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 43"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 44"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 45"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 46"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 47"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 48"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 49"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 50"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 51"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 52"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 53"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 54"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 55"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 56"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 57"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 58"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 59"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 60"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 61"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 62"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 63"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 64"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 65"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 66"
+      },
+      {
+        "type": "group",
+        "id": "Group 3"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "text",
+        "id": "8"
+      },
+      {
+        "type": "text",
+        "id": "7"
+      },
+      {
+        "type": "text",
+        "id": "6"
+      },
+      {
+        "type": "text",
+        "id": "5"
+      },
+      {
+        "type": "text",
+        "id": "4"
+      },
+      {
+        "type": "text",
+        "id": "3"
+      },
+      {
+        "type": "text",
+        "id": "2"
+      },
+      {
+        "type": "text",
+        "id": "1"
+      },
+      {
+        "type": "text",
+        "id": "A"
+      },
+      {
+        "type": "text",
+        "id": "B"
+      },
+      {
+        "type": "text",
+        "id": "C"
+      },
+      {
+        "type": "text",
+        "id": "D"
+      },
+      {
+        "type": "text",
+        "id": "E"
+      },
+      {
+        "type": "text",
+        "id": "F"
+      },
+      {
+        "type": "text",
+        "id": "G"
+      },
+      {
+        "type": "text",
+        "id": "H"
+      }
+    ],
+    "modes": {
+      "Group 20": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Rectangle 1",
+              "board",
+              "stuff"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 1",
+            "border-radius": 16.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "board",
+            "margin": {
+              "left": 29.0,
+              "top": 10.0,
+              "right": 10.0,
+              "bottom": 29.04296875
+            },
+            "relative-transform": [
+              [
+                1.0,
+                5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Group 6",
+              "Group 11",
+              "Group 12",
+              "Group 13",
+              "Group 14",
+              "Group 15",
+              "Group 16",
+              "Group 7",
+              "Group 17",
+              "Group 18",
+              "Group 19",
+              "Group 8",
+              "Group 9",
+              "Group 10"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "stuff",
+            "margin": {
+              "left": 10.138458251953125,
+              "top": 18.5384521484375,
+              "right": 20.32305908203125,
+              "bottom": 11.784637451171875
+            },
+            "relative-transform": [
+              [
+                1.0,
+                5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Group 3",
+              "Group 2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 6",
+            "margin": {
+              "top": 2.842170943040401e-14
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 3",
+              "Rectangle 4",
+              "Rectangle 5",
+              "Rectangle 6",
+              "Rectangle 7",
+              "Rectangle 8",
+              "Rectangle 9",
+              "Rectangle 10"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 11",
+            "margin": {
+              "left": 1.4210854715202004e-14,
+              "top": 67.0,
+              "right": 66.75,
+              "bottom": 0.75
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 11",
+              "Rectangle 12",
+              "Rectangle 13",
+              "Rectangle 14",
+              "Rectangle 15",
+              "Rectangle 16"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 12",
+            "margin": {
+              "left": 1.4210854715202004e-14,
+              "top": 132.0,
+              "right": 133.5,
+              "bottom": 1.45703125
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 17",
+              "Rectangle 18",
+              "Rectangle 19",
+              "Rectangle 20"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 13",
+            "margin": {
+              "left": 1.4210854715202004e-14,
+              "top": 199.0,
+              "right": 200.25,
+              "bottom": 1.20703125
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 21",
+              "Rectangle 22"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 14",
+            "margin": {
+              "left": 66.75,
+              "top": 1.75,
+              "bottom": 66.0
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 23",
+              "Rectangle 24",
+              "Rectangle 25",
+              "Rectangle 26",
+              "Rectangle 27",
+              "Rectangle 28"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 15",
+            "margin": {
+              "left": 133.5,
+              "top": 0.45703125,
+              "bottom": 133.0
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 29",
+              "Rectangle 30",
+              "Rectangle 31",
+              "Rectangle 32"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 16",
+            "margin": {
+              "left": 200.25,
+              "top": 0.20703125,
+              "bottom": 200.0
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 33",
+              "Rectangle 34"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 7",
+            "margin": {
+              "top": 2.842170943040401e-14,
+              "bottom": 1.0
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 35",
+              "Rectangle 36",
+              "Rectangle 37",
+              "Rectangle 38",
+              "Rectangle 39",
+              "Rectangle 40",
+              "Rectangle 41",
+              "Rectangle 42"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 17",
+            "margin": {
+              "top": 0.75,
+              "right": 66.75,
+              "bottom": 67.0
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 43",
+              "Rectangle 44",
+              "Rectangle 45",
+              "Rectangle 46",
+              "Rectangle 47",
+              "Rectangle 48"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 18",
+            "margin": {
+              "top": 0.45703125,
+              "right": 133.5,
+              "bottom": 133.0
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 49",
+              "Rectangle 50",
+              "Rectangle 51",
+              "Rectangle 52"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 19",
+            "margin": {
+              "top": 0.20703125,
+              "right": 200.25,
+              "bottom": 200.0
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 53",
+              "Rectangle 54"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 8",
+            "margin": {
+              "left": 66.75,
+              "top": 67.0,
+              "bottom": 0.75
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 55",
+              "Rectangle 56",
+              "Rectangle 57",
+              "Rectangle 58",
+              "Rectangle 59",
+              "Rectangle 60"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 9",
+            "margin": {
+              "left": 133.5,
+              "top": 133.0,
+              "bottom": 0.45703125
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 61",
+              "Rectangle 62",
+              "Rectangle 63",
+              "Rectangle 64"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 10",
+            "margin": {
+              "left": 200.25,
+              "top": 200.0,
+              "bottom": 0.20703125
+            },
+            "relative-transform": [
+              [
+                -1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                -5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "Rectangle 65",
+              "Rectangle 66"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 3",
+            "margin": {
+              "right": 233.625,
+              "bottom": 233.58203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Rectangle 4",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375,
+              "right": 200.25,
+              "bottom": 200.20703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 5",
+            "margin": {
+              "left": 66.75,
+              "top": 66.75,
+              "right": 166.875,
+              "bottom": 166.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "margin": {
+              "left": 100.125,
+              "top": 100.125,
+              "right": 133.5,
+              "bottom": 133.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "margin": {
+              "left": 133.5,
+              "top": 132.45703125,
+              "right": 100.125,
+              "bottom": 101.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
+            "id": "Rectangle 8",
+            "margin": {
+              "left": 166.875,
+              "top": 165.83203125,
+              "right": 66.75,
+              "bottom": 67.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_8.svg"
+          },
+          {
+            "id": "Rectangle 9",
+            "margin": {
+              "left": 200.25,
+              "top": 199.20703125,
+              "right": 33.375,
+              "bottom": 34.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_9.svg"
+          },
+          {
+            "id": "Rectangle 10",
+            "margin": {
+              "left": 233.625,
+              "top": 233.58203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_10.svg"
+          },
+          {
+            "id": "Rectangle 11",
+            "margin": {
+              "right": 166.875,
+              "bottom": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_11.svg"
+          },
+          {
+            "id": "Rectangle 12",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375,
+              "right": 133.5,
+              "bottom": 132.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_12.svg"
+          },
+          {
+            "id": "Rectangle 13",
+            "margin": {
+              "left": 66.75,
+              "top": 66.75,
+              "right": 100.125,
+              "bottom": 99.08203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_13.svg"
+          },
+          {
+            "id": "Rectangle 14",
+            "margin": {
+              "left": 100.125,
+              "top": 100.125,
+              "right": 66.75,
+              "bottom": 65.70703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_14.svg"
+          },
+          {
+            "id": "Rectangle 15",
+            "margin": {
+              "left": 133.5,
+              "top": 132.45703125,
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_15.svg"
+          },
+          {
+            "id": "Rectangle 16",
+            "margin": {
+              "left": 166.875,
+              "top": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_16.svg"
+          },
+          {
+            "id": "Rectangle 17",
+            "margin": {
+              "right": 100.125,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_17.svg"
+          },
+          {
+            "id": "Rectangle 18",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375,
+              "right": 66.75,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_18.svg"
+          },
+          {
+            "id": "Rectangle 19",
+            "margin": {
+              "left": 66.75,
+              "top": 66.75,
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_19.svg"
+          },
+          {
+            "id": "Rectangle 20",
+            "margin": {
+              "left": 100.125,
+              "top": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_20.svg"
+          },
+          {
+            "id": "Rectangle 21",
+            "margin": {
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_21.svg"
+          },
+          {
+            "id": "Rectangle 22",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_22.svg"
+          },
+          {
+            "id": "Rectangle 23",
+            "margin": {
+              "right": 166.875,
+              "bottom": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_23.svg"
+          },
+          {
+            "id": "Rectangle 24",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375,
+              "right": 133.5,
+              "bottom": 132.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_24.svg"
+          },
+          {
+            "id": "Rectangle 25",
+            "margin": {
+              "left": 66.75,
+              "top": 65.70703125,
+              "right": 100.125,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_25.svg"
+          },
+          {
+            "id": "Rectangle 26",
+            "margin": {
+              "left": 100.125,
+              "top": 99.08203125,
+              "right": 66.75,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_26.svg"
+          },
+          {
+            "id": "Rectangle 27",
+            "margin": {
+              "left": 133.5,
+              "top": 132.45703125,
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_27.svg"
+          },
+          {
+            "id": "Rectangle 28",
+            "margin": {
+              "left": 166.875,
+              "top": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_28.svg"
+          },
+          {
+            "id": "Rectangle 29",
+            "margin": {
+              "right": 100.125,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_29.svg"
+          },
+          {
+            "id": "Rectangle 30",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375,
+              "right": 66.75,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_30.svg"
+          },
+          {
+            "id": "Rectangle 31",
+            "margin": {
+              "left": 66.75,
+              "top": 66.75,
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_31.svg"
+          },
+          {
+            "id": "Rectangle 32",
+            "margin": {
+              "left": 100.125,
+              "top": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_32.svg"
+          },
+          {
+            "id": "Rectangle 33",
+            "margin": {
+              "right": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_33.svg"
+          },
+          {
+            "id": "Rectangle 34",
+            "margin": {
+              "left": 33.375,
+              "top": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_34.svg"
+          },
+          {
+            "id": "Rectangle 35",
+            "margin": {
+              "left": 233.625,
+              "bottom": 232.58203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_35.svg"
+          },
+          {
+            "id": "Rectangle 36",
+            "margin": {
+              "left": 200.25,
+              "top": 33.375,
+              "right": 33.375,
+              "bottom": 199.20703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_36.svg"
+          },
+          {
+            "id": "Rectangle 37",
+            "margin": {
+              "left": 166.875,
+              "top": 66.75,
+              "right": 66.75,
+              "bottom": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_37.svg"
+          },
+          {
+            "id": "Rectangle 38",
+            "margin": {
+              "left": 133.5,
+              "top": 100.125,
+              "right": 100.125,
+              "bottom": 132.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_38.svg"
+          },
+          {
+            "id": "Rectangle 39",
+            "margin": {
+              "left": 100.125,
+              "top": 132.45703125,
+              "right": 133.5,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_39.svg"
+          },
+          {
+            "id": "Rectangle 40",
+            "margin": {
+              "left": 66.75,
+              "top": 165.83203125,
+              "right": 166.875,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_40.svg"
+          },
+          {
+            "id": "Rectangle 41",
+            "margin": {
+              "left": 33.375,
+              "top": 199.20703125,
+              "right": 200.25,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_41.svg"
+          },
+          {
+            "id": "Rectangle 42",
+            "margin": {
+              "top": 232.58203125,
+              "right": 233.625
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_42.svg"
+          },
+          {
+            "id": "Rectangle 43",
+            "margin": {
+              "left": 166.875,
+              "bottom": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_43.svg"
+          },
+          {
+            "id": "Rectangle 44",
+            "margin": {
+              "left": 133.5,
+              "top": 33.375,
+              "right": 33.375,
+              "bottom": 132.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_44.svg"
+          },
+          {
+            "id": "Rectangle 45",
+            "margin": {
+              "left": 100.125,
+              "top": 65.70703125,
+              "right": 66.75,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_45.svg"
+          },
+          {
+            "id": "Rectangle 46",
+            "margin": {
+              "left": 66.75,
+              "top": 99.08203125,
+              "right": 100.125,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_46.svg"
+          },
+          {
+            "id": "Rectangle 47",
+            "margin": {
+              "left": 33.375,
+              "top": 132.45703125,
+              "right": 133.5,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_47.svg"
+          },
+          {
+            "id": "Rectangle 48",
+            "margin": {
+              "top": 165.83203125,
+              "right": 166.875
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_48.svg"
+          },
+          {
+            "id": "Rectangle 49",
+            "margin": {
+              "left": 100.125,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_49.svg"
+          },
+          {
+            "id": "Rectangle 50",
+            "margin": {
+              "left": 66.75,
+              "top": 33.375,
+              "right": 33.375,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_50.svg"
+          },
+          {
+            "id": "Rectangle 51",
+            "margin": {
+              "left": 33.375,
+              "top": 66.75,
+              "right": 66.75,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_51.svg"
+          },
+          {
+            "id": "Rectangle 52",
+            "margin": {
+              "top": 100.125,
+              "right": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_52.svg"
+          },
+          {
+            "id": "Rectangle 53",
+            "margin": {
+              "left": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_53.svg"
+          },
+          {
+            "id": "Rectangle 54",
+            "margin": {
+              "top": 33.375,
+              "right": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_54.svg"
+          },
+          {
+            "id": "Rectangle 55",
+            "margin": {
+              "left": 166.875,
+              "bottom": 165.83203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_55.svg"
+          },
+          {
+            "id": "Rectangle 56",
+            "margin": {
+              "left": 133.5,
+              "top": 33.375,
+              "right": 33.375,
+              "bottom": 132.45703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_56.svg"
+          },
+          {
+            "id": "Rectangle 57",
+            "margin": {
+              "left": 100.125,
+              "top": 66.75,
+              "right": 66.75,
+              "bottom": 99.08203125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_57.svg"
+          },
+          {
+            "id": "Rectangle 58",
+            "margin": {
+              "left": 66.75,
+              "top": 100.125,
+              "right": 100.125,
+              "bottom": 65.70703125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_58.svg"
+          },
+          {
+            "id": "Rectangle 59",
+            "margin": {
+              "left": 33.375,
+              "top": 132.45703125,
+              "right": 133.5,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_59.svg"
+          },
+          {
+            "id": "Rectangle 60",
+            "margin": {
+              "top": 165.83203125,
+              "right": 166.875
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_60.svg"
+          },
+          {
+            "id": "Rectangle 61",
+            "margin": {
+              "left": 100.125,
+              "bottom": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_61.svg"
+          },
+          {
+            "id": "Rectangle 62",
+            "margin": {
+              "left": 66.75,
+              "top": 33.375,
+              "right": 33.375,
+              "bottom": 66.75
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_62.svg"
+          },
+          {
+            "id": "Rectangle 63",
+            "margin": {
+              "left": 33.375,
+              "top": 66.75,
+              "right": 66.75,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_63.svg"
+          },
+          {
+            "id": "Rectangle 64",
+            "margin": {
+              "top": 100.125,
+              "right": 100.125
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_64.svg"
+          },
+          {
+            "id": "Rectangle 65",
+            "margin": {
+              "left": 33.375,
+              "bottom": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_65.svg"
+          },
+          {
+            "id": "Rectangle 66",
+            "margin": {
+              "top": 33.375,
+              "right": 33.375
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_66.svg"
+          },
+          {
+            "id": "Group 3",
+            "margin": {
+              "right": 270.04617500305176,
+              "bottom": 16.75384521484375
+            },
+            "is-structured": false,
+            "children": [
+              "8",
+              "7",
+              "6",
+              "5",
+              "4",
+              "3",
+              "2",
+              "1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 2",
+            "margin": {
+              "left": 18.96923828125,
+              "top": 266.26153564453125
+            },
+            "is-structured": false,
+            "children": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "8",
+            "margin": {
+              "bottom": 249.50768089294434
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "8",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "7",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 35.307701110839844,
+              "right": 0.7846122301541527,
+              "bottom": 214.1999797821045
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "7",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "6",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 71.40000915527344,
+              "bottom": 178.1076717376709
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "6",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "5",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 106.70770263671875,
+              "right": 0.7846122301541527,
+              "bottom": 142.7999782562256
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "5",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "4",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 142.8000030517578,
+              "bottom": 106.70767784118652
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "4",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "3",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 178.10769653320312,
+              "right": 0.7846122301541527,
+              "bottom": 71.39998435974121
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "3",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "2",
+            "margin": {
+              "left": 0.000003286508444499958,
+              "top": 214.20001220703125,
+              "right": 0.7846122301541527,
+              "bottom": 35.307668685913086
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "2",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "1",
+            "margin": {
+              "left": 0.7846186757087708,
+              "top": 249.50770568847656,
+              "right": 1.569227397441864
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "A",
+            "margin": {
+              "right": 250.29232120513916,
+              "bottom": 1.4210854715202004e-14
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "A",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "B",
+            "margin": {
+              "left": 36.09230422973633,
+              "top": 0.00001220703143189894,
+              "right": 214.20001697540283
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "B",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "C",
+            "margin": {
+              "left": 71.39999389648438,
+              "top": 0.00001220703143189894,
+              "right": 178.89232730865479
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "C",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "D",
+            "margin": {
+              "left": 106.70768737792969,
+              "top": 0.00001220703143189894,
+              "right": 142.80001831054688
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "D",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "E",
+            "margin": {
+              "left": 143.58460998535156,
+              "top": 0.00001220703143189894,
+              "right": 107.4923267364502
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "E",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "F",
+            "margin": {
+              "left": 178.89230346679688,
+              "top": 0.00001220703143189894,
+              "right": 72.18463325500488
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "F",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "G",
+            "margin": {
+              "left": 214.1999969482422,
+              "top": 0.00001220703143189894,
+              "right": 36.09232425689697
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "G",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          },
+          {
+            "id": "H",
+            "margin": {
+              "left": 249.5076904296875,
+              "top": 0.00001220703143189894,
+              "right": 0.0000152587890625
+            },
+            "relative-transform": [
+              [
+                1.0,
+                -5.551115123125783e-17,
+                0.0
+              ],
+              [
+                5.551115123125783e-17,
+                1.0,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 0.6980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.9019607843137255
+            },
+            "text-content": "H",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2189999580383302,
+            "typeface": "Montserrat"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Group 20",
+      "size": {
+        "width": 306.0,
+        "height": 306.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

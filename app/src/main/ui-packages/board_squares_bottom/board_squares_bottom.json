@@ -1,0 +1,1869 @@
+{
+  "name": "board_squares_bottom",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "qzB6ugoqahu00oN477vg1p",
+    "node": "504:1097",
+    "version": "2146336784385966167",
+    "component-id": "b877b0c95a846598ac6cff79314705611027c311"
+  },
+  "default": "Colour=White, Piece=On, Active=Off, Number / Name=Off, Hint=Off",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke"
+      },
+      {
+        "type": "vector",
+        "id": "Union"
+      },
+      {
+        "type": "text",
+        "id": "a"
+      },
+      {
+        "type": "text",
+        "id": "1"
+      },
+      {
+        "type": "vector",
+        "id": "Overlay"
+      }
+    ],
+    "modes": {
+      "Colour=White, Piece=On, Active=Off, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=On, Active=Off, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "a",
+              "1",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke1.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union1.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=Off, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=Off, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "a",
+            "margin": {
+              "left": 55.0,
+              "top": 53.0,
+              "right": 3.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=On, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=On, Number / Name=Off, Hint=On": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "vector-content": "overlay1.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=On, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay2.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      },
+      "Colour=White, Piece=Off, Active=On, Number / Name=On, Hint=On": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "vector-content": "overlay3.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      },
+      "Colour=Black, Piece=On, Active=Off, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke2.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union2.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=On, Active=Off, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "a",
+              "1",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke3.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union3.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=On, Active=On, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay4.svg"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke4.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union4.svg"
+          }
+        ]
+      },
+      "Colour=White, Piece=On, Active=On, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay5.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke5.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union5.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=On, Active=On, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay6.svg"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke6.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union6.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=On, Active=On, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1",
+              "Chess Pieces"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay7.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "Chess Pieces",
+            "margin": 9.0,
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke7.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union7.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=Off, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "relative-transform": [
+              [
+                1.0,
+                -5.3437816372905846e-24,
+                0.0
+              ],
+              [
+                5.3437816372905846e-24,
+                1.0,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            }
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=Off, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=On, Number / Name=Off, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay8.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=On, Number / Name=Off, Hint=On": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "vector-content": "overlay9.svg"
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=On, Number / Name=On, Hint=Off": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "overlay10.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      },
+      "Colour=Black, Piece=Off, Active=On, Number / Name=On, Hint=On": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Overlay",
+              "a",
+              "1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 226.66666666666666,
+              "saturation": 0.17999999999999994,
+              "value": 0.19607843137254902
+            }
+          },
+          {
+            "id": "Overlay",
+            "border-radius": 12.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "vector-content": "overlay11.svg"
+          },
+          {
+            "id": "a",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": -3.0
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "a",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          },
+          {
+            "id": "1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 69.37499999999997,
+              "saturation": 0.14096916299559473,
+              "value": 0.8901960784313725
+            },
+            "text-content": "1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "line-height": 1.171875,
+            "case": "upper"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Colour=White, Piece=On, Active=Off, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=On, Active=Off, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=Off, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=Off, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=On, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=On, Number / Name=Off, Hint=On",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=On, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=Off, Active=On, Number / Name=On, Hint=On",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=On, Active=Off, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=On, Active=Off, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=On, Active=On, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=White, Piece=On, Active=On, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=On, Active=On, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=On, Active=On, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=Off, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=Off, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=On, Number / Name=Off, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=On, Number / Name=Off, Hint=On",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=On, Number / Name=On, Hint=Off",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    },
+    {
+      "design": "Colour=Black, Piece=Off, Active=On, Number / Name=On, Hint=On",
+      "size": {
+        "width": 72.0,
+        "height": 72.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
