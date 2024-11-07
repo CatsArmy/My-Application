@@ -1,0 +1,968 @@
+{
+  "name": "group_2",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "qzB6ugoqahu00oN477vg1p",
+    "node": "508:886",
+    "version": "2146367614176707946",
+    "component-id": "d4f3e7416f3cba29e97d161ede1c0a8010ecb12a"
+  },
+  "default": "Group 2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces1"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces2"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces3"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces4"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces5"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces6"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces7"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces8"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces9"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces10"
+      },
+      {
+        "type": "group",
+        "id": "Chess Pieces11"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke"
+      },
+      {
+        "type": "vector",
+        "id": "Union"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke1"
+      },
+      {
+        "type": "vector",
+        "id": "Union1"
+      },
+      {
+        "type": "vector",
+        "id": "eye"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke2"
+      },
+      {
+        "type": "vector",
+        "id": "Union2"
+      },
+      {
+        "type": "vector",
+        "id": "Union3"
+      },
+      {
+        "type": "vector",
+        "id": "Union4"
+      },
+      {
+        "type": "vector",
+        "id": "Union5"
+      },
+      {
+        "type": "vector",
+        "id": "Union6"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke3"
+      },
+      {
+        "type": "vector",
+        "id": "Union7"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke4"
+      },
+      {
+        "type": "vector",
+        "id": "Union8"
+      },
+      {
+        "type": "vector",
+        "id": "Union9"
+      },
+      {
+        "type": "vector",
+        "id": "Union10"
+      },
+      {
+        "type": "vector",
+        "id": "Union11"
+      },
+      {
+        "type": "vector",
+        "id": "Union12"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke5"
+      },
+      {
+        "type": "vector",
+        "id": "Union13"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke6"
+      },
+      {
+        "type": "vector",
+        "id": "Union14"
+      },
+      {
+        "type": "vector",
+        "id": "eye1"
+      },
+      {
+        "type": "vector",
+        "id": "Stroke7"
+      },
+      {
+        "type": "vector",
+        "id": "Union15"
+      }
+    ],
+    "modes": {
+      "Group 2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Chess Pieces",
+              "Chess Pieces1",
+              "Chess Pieces2",
+              "Chess Pieces3",
+              "Chess Pieces4",
+              "Chess Pieces5",
+              "Chess Pieces6",
+              "Chess Pieces7",
+              "Chess Pieces8",
+              "Chess Pieces9",
+              "Chess Pieces10",
+              "Chess Pieces11"
+            ],
+            "item-spacing": 18.0,
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke",
+              "Union"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke1",
+              "Union1",
+              "eye"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke2",
+              "Union2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Union3",
+              "Union4"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Union5",
+              "Union6"
+            ]
+          },
+          {
+            "id": "Chess Pieces5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke3",
+              "Union7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke4",
+              "Union8"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Union9",
+              "Union10"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Union11",
+              "Union12"
+            ]
+          },
+          {
+            "id": "Chess Pieces9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke5",
+              "Union13"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces10",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke6",
+              "Union14",
+              "eye1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Chess Pieces11",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 54.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Stroke7",
+              "Union15"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Stroke",
+            "margin": {
+              "left": 9.0,
+              "top": 3.75,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke.svg"
+          },
+          {
+            "id": "Union",
+            "margin": {
+              "left": 12.0,
+              "top": 6.75,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union.svg"
+          },
+          {
+            "id": "Stroke1",
+            "margin": {
+              "left": 2.88623046875,
+              "top": 0.3614501953125,
+              "right": 6.75,
+              "bottom": 4.499969482421875
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke1.svg"
+          },
+          {
+            "id": "Union1",
+            "margin": {
+              "left": 5.89056396484375,
+              "top": 3.3614501953125,
+              "right": 9.749992370605469,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union1.svg"
+          },
+          {
+            "id": "eye",
+            "margin": {
+              "left": 18.75,
+              "top": 18.0,
+              "right": 30.75,
+              "bottom": 31.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "eye.svg"
+          },
+          {
+            "id": "Stroke2",
+            "margin": {
+              "left": 9.75,
+              "top": 2.25,
+              "right": 9.692310333251953,
+              "bottom": 4.499992370605469
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke2.svg"
+          },
+          {
+            "id": "Union2",
+            "margin": {
+              "left": 12.75,
+              "top": 5.25,
+              "right": 12.692310333251953,
+              "bottom": 7.499992370605469
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union2.svg"
+          },
+          {
+            "id": "Union3",
+            "margin": {
+              "left": 0.75,
+              "top": 0.75,
+              "right": 0.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union3.svg"
+          },
+          {
+            "id": "Union4",
+            "margin": {
+              "left": 3.75,
+              "top": 3.75,
+              "right": 3.75,
+              "bottom": 7.499996185302734
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union4.svg"
+          },
+          {
+            "id": "Union5",
+            "margin": {
+              "left": 3.931671142578125,
+              "right": 2.431671142578125,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union5.svg"
+          },
+          {
+            "id": "Union6",
+            "margin": {
+              "left": 6.936676025390625,
+              "top": 3.0,
+              "right": 5.436676025390625,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union6.svg"
+          },
+          {
+            "id": "Stroke3",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke3.svg"
+          },
+          {
+            "id": "Union7",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union7.svg"
+          },
+          {
+            "id": "Stroke4",
+            "margin": {
+              "left": 9.0,
+              "top": 4.5,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke4.svg"
+          },
+          {
+            "id": "Union8",
+            "margin": {
+              "left": 12.0,
+              "top": 7.5,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union8.svg"
+          },
+          {
+            "id": "Union9",
+            "margin": {
+              "left": 0.75,
+              "top": 0.75,
+              "right": 0.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union9.svg"
+          },
+          {
+            "id": "Union10",
+            "margin": {
+              "left": 3.75,
+              "top": 3.75,
+              "right": 3.75,
+              "bottom": 7.499996185302734
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union10.svg"
+          },
+          {
+            "id": "Union11",
+            "margin": {
+              "left": 3.931671142578125,
+              "right": 2.431671142578125,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union11.svg"
+          },
+          {
+            "id": "Union12",
+            "margin": {
+              "left": 6.936676025390625,
+              "top": 3.0,
+              "right": 5.436676025390625,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union12.svg"
+          },
+          {
+            "id": "Stroke5",
+            "margin": {
+              "left": 9.75,
+              "top": 2.25,
+              "right": 9.692310333251953,
+              "bottom": 4.499992370605469
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke5.svg"
+          },
+          {
+            "id": "Union13",
+            "margin": {
+              "left": 12.75,
+              "top": 5.25,
+              "right": 12.692310333251953,
+              "bottom": 7.499992370605469
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union13.svg"
+          },
+          {
+            "id": "Stroke6",
+            "margin": {
+              "left": 2.88623046875,
+              "top": 0.3614501953125,
+              "right": 6.75,
+              "bottom": 4.499969482421875
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke6.svg"
+          },
+          {
+            "id": "Union14",
+            "margin": {
+              "left": 5.89056396484375,
+              "top": 3.3614501953125,
+              "right": 9.749992370605469,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union14.svg"
+          },
+          {
+            "id": "eye1",
+            "margin": {
+              "left": 18.75,
+              "top": 18.0,
+              "right": 30.75,
+              "bottom": 31.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "eye1.svg"
+          },
+          {
+            "id": "Stroke7",
+            "margin": {
+              "left": 9.0,
+              "top": 3.75,
+              "right": 9.75,
+              "bottom": 4.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "stroke7.svg"
+          },
+          {
+            "id": "Union15",
+            "margin": {
+              "left": 12.0,
+              "top": 6.75,
+              "right": 12.75,
+              "bottom": 7.5
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "union15.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Group 2",
+      "size": {
+        "width": 414.0,
+        "height": 126.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
