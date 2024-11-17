@@ -86,12 +86,15 @@
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="32dp"
                     android:layout_weight="1"
                     android:gravity="bottom"
                     android:text="Guest"
                     android:textSize="24sp"
-                    app:layout_constraintBottom_toTopOf="@+id/guideline11"
-                    app:layout_constraintEnd_toStartOf="@+id/guideline9"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/profileAction1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,8 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    app:layout_constraintEnd_toStartOf="@id/fabAddProfilePicture"
-                    app:layout_constraintStart_toEndOf="@id/fabAddProfilePicture2" />
+                    app:layout_constraintEnd_toStartOf="@id/profileAction1" />
 
                 <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guideline8"
@@ -125,76 +127,40 @@
                     app:layout_constraintGuide_percent="0.725" />
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-                    android:id="@+id/fabAddProfilePicture"
+                    android:id="@+id/profileAction1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:clickable="true"
                     android:text="Login"
-                    android:visibility="invisible"
-                    app:icon="@drawable/outline_person_24"
+                    app:icon="@drawable/outline_person"
                     app:iconGravity="end"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.15"
-                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-                    tools:visibility="visible" />
+                    app:layout_constraintVertical_bias="0.100000024"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-                    android:id="@+id/fabAddProfilePicture4"
+                    android:id="@+id/profileAction2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:text="Account"
-                    android:visibility="invisible"
-                    app:icon="@drawable/outline_manage_accounts_24"
-                    app:iconGravity="end"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.15"
-                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-                    tools:visibility="visible" />
-
-                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-                    android:id="@+id/fabAddProfilePicture2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:clickable="true"
                     android:text="Sign up"
-                    android:visibility="invisible"
-                    app:icon="@drawable/outline_person_add_24"
+                    app:icon="@drawable/outline_person_add"
                     app:iconGravity="end"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.85"
-                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-                    tools:visibility="visible" />
-
-                <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-                    android:id="@+id/fabAddProfilePicture5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="true"
-                    android:text="Log out"
-                    android:visibility="invisible"
-                    app:icon="@drawable/outline_person_remove_24"
-                    app:iconGravity="end"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.85"
-                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
-                    tools:visibility="visible" />
+                    app:layout_constraintVertical_bias="0.9"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
