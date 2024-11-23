@@ -8,6 +8,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.PickVisualMediaRequest;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.myapplication.databinding.MainActivityBinding;
 
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("PhotoPicker", "No media selected");
                     }
                 });
+        ConstraintLayout.LayoutParams a = ((ConstraintLayout.LayoutParams) findViewById(R.id.gmb__D1).getLayoutParams());
+        ConstraintLayout.LayoutParams b = new ConstraintLayout.LayoutParams(a);
 
 // Include only one of the following calls to launch(), depending on the types
 // of media that you want to let the user choose from.
