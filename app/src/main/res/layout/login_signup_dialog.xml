@@ -5,39 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/suTitle"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="8dp"
-        android:gravity="center"
-        android:text="Material Chess"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/suGuideline15"
-        app:layout_constraintEnd_toStartOf="@+id/suGuideline7"
-        app:layout_constraintStart_toStartOf="@+id/suGuideline6"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/suChessLogo"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/suGuideline14"
-        app:layout_constraintEnd_toStartOf="@+id/suGuideline7"
-        app:layout_constraintStart_toStartOf="@+id/suGuideline6"
-        app:layout_constraintTop_toTopOf="@+id/suGuideline15"
-        app:srcCompat="@drawable/knight_black" />
-
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SignupUsernameLayout"
+        android:id="@+id/DialogUsernameLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:visibility="gone"
         app:errorEnabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/suGuideline7"
@@ -46,7 +19,7 @@
         app:layout_constraintVertical_bias="0.35">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/SignupUsernameInput"
+            android:id="@+id/DialogUsernameInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName" />
@@ -54,7 +27,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SignupEmailLayout"
+        android:id="@+id/DialogEmailLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Email"
@@ -67,7 +40,7 @@
         app:layout_constraintVertical_bias="0.45">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/SignupEmailInput"
+            android:id="@+id/DialogEmailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
@@ -75,7 +48,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/SignupPasswordLayout"
+        android:id="@+id/DialogPasswordLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -88,35 +61,12 @@
         app:layout_constraintVertical_bias="0.55">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/SignupPasswordInput"
+            android:id="@+id/DialogPasswordInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/suSignup"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:text="Sign up"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/suGuideline9"
-        app:layout_constraintEnd_toStartOf="@+id/suGuideline12"
-        app:layout_constraintHorizontal_bias="0.10"
-        app:layout_constraintStart_toStartOf="@+id/suGuideline11"
-        app:layout_constraintTop_toTopOf="@+id/suGuideline10" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/suGuideline9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.7" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/suGuideline10"
@@ -133,13 +83,6 @@
         app:layout_constraintGuide_percent="0.33" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/suGuideline15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.08" />
-
-    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/suGuideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -152,19 +95,5 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.85" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/suGuideline11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.3" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/suGuideline12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
