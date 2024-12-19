@@ -13,8 +13,7 @@
         android:hint="Username"
         app:errorEnabled="false"
         app:expandedHintEnabled="false"
-        app:startIconDrawable="@drawable/outline_person_edit"
-        app:startIconTint="@color/material_dynamic_secondary40">
+        app:startIconDrawable="@drawable/outline_person_edit">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/MainUsernameInput"
