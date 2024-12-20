@@ -69,7 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:gravity="bottom"
+                android:gravity="center|start"
                 android:text="Guest"
                 android:textColor="?android:attr/textColorTertiary"
                 android:textSize="24sp"
@@ -151,7 +151,7 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:gravity="bottom"
+                android:gravity="center|start"
                 android:text="Guest"
                 android:textColor="?android:attr/textColorTertiary"
                 android:textSize="24sp"
@@ -222,7 +222,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.72" />
+        app:layout_constraintGuide_percent="0.74" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline15"
