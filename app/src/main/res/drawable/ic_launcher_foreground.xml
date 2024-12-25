@@ -12,8 +12,8 @@
           android:centerY="32.5"
           android:gradientRadius="57.27"
           android:type="radial">
-        <item android:offset="0" android:color="@color/white_space_overlay_color"/>
-        <item android:offset="1" android:color="@color/black_space_overlay_color"/>
+        <item android:offset="0" android:color="@color/theme_app_star"/>
+        <item android:offset="1" android:color="@color/theme_app_star_alt"/>
       </gradient>
     </aapt:attr>
   </path>

@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.myapplication.databinding.MainActivityBinding;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.dialog.MaterialDialogs;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                 });
         ConstraintLayout.LayoutParams a = ((ConstraintLayout.LayoutParams) findViewById(R.id.gmb__D1).getLayoutParams());
         ConstraintLayout.LayoutParams b = new ConstraintLayout.LayoutParams(a);
+        //   MaterialAlertDialogBuilder alertDialogBuilder=  new MaterialAlertDialogBuilder(this,this.getTheme());
+        // alertDialogBuilder.
 
 // Include only one of the following calls to launch(), depending on the types
 // of media that you want to let the user choose from.
