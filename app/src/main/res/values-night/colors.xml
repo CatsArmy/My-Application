@@ -14,8 +14,8 @@
     <color name="on_theme_app">@color/material_dynamic_primary80</color>
     <color name="theme_app">@color/material_dynamic_primary20</color>
 
-    <color name="theme_app_ring_alt">?attr/colorTertiary</color>
-    <color name="theme_app_alt">?attr/colorTertiaryContainer</color>
+    <color name="theme_app_white_piece">@color/material_dynamic_primary90</color>
+    <color name="theme_app_black_piece">@color/material_dynamic_primary30</color>
     <color name="theme_app_star">@color/material_dynamic_tertiary50</color>
     <color name="theme_app_star_alt">@color/material_dynamic_tertiary20</color>
 </resources>
