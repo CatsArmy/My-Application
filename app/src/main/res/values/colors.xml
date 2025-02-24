@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="Material_Title">?attr/colorTertiary</color>
+    <color name="You_Title">?attr/colorPrimary</color>
+    <color name="Chess_Title">?attr/colorSecondary</color>
+
     <!--Light mode-->
     <color name="white_space_color">?attr/colorSecondaryContainer</color>
     <color name="black_space_color">?attr/colorOnSecondaryContainer</color>
