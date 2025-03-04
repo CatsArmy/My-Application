@@ -477,14 +477,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/gmb__A4"
                 app:srcCompat="@drawable/black_square" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/gmb__A1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:tag="IsBlack"
                 app:layout_constraintStart_toStartOf="@+id/boardCenterV"
                 app:layout_constraintTop_toBottomOf="@+id/gmb__A2"
-                app:srcCompat="@drawable/black_square_bottom" />
+                app:shapeAppearanceOverlay="@style/BottomBlack"
+                app:srcCompat="@drawable/black_square" />
 
             <ImageView
                 android:id="@+id/gmb__B8"
@@ -577,14 +578,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/gmb__D5"
                 app:srcCompat="@drawable/black_square" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/gmb__A8"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:tag="IsWhite"
                 app:layout_constraintStart_toStartOf="@+id/boardCenterV"
                 app:layout_constraintTop_toTopOf="@+id/boardCenterH"
-                app:srcCompat="@drawable/white_square_top" />
+                app:shapeAppearanceOverlay="@style/TopWhite"
+                app:srcCompat="@drawable/white_square" />
 
             <ImageView
                 android:id="@+id/gmb__A6"
@@ -957,14 +959,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/gmb__G2"
                 app:srcCompat="@drawable/black_square" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/gmb__H8"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:tag="IsBlack"
                 app:layout_constraintStart_toEndOf="@+id/gmb__G8"
                 app:layout_constraintTop_toTopOf="@+id/boardCenterH"
-                app:srcCompat="@drawable/black_square_top" />
+                app:shapeAppearanceOverlay="@style/TopBlack"
+                app:srcCompat="@drawable/black_square" />
 
             <ImageView
                 android:id="@+id/gmb__H7"
@@ -1020,14 +1023,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/gmb__H3"
                 app:srcCompat="@drawable/black_square" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/gmb__H1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:tag="IsWhite"
                 app:layout_constraintStart_toEndOf="@+id/gmb__G1"
                 app:layout_constraintTop_toBottomOf="@+id/gmb__H2"
-                app:srcCompat="@drawable/white_square_bottom" />
+                app:shapeAppearanceOverlay="@style/BottomWhite"
+                app:srcCompat="@drawable/white_square" />
 
             <ImageView
                 android:id="@+id/gmp__bRook1"
@@ -1038,7 +1042,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__A8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__A8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__A8"
-                app:srcCompat="@drawable/rook_black" />
+                app:srcCompat="@drawable/rook_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bKnight1"
@@ -1049,7 +1054,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__B8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__B8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__B8"
-                app:srcCompat="@drawable/knight_black" />
+                app:srcCompat="@drawable/knight_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bBishop1"
@@ -1060,7 +1066,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__C8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__C8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__C8"
-                app:srcCompat="@drawable/bishop_black" />
+                app:srcCompat="@drawable/bishop_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bQueen1"
@@ -1071,7 +1078,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__D8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__D8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__D8"
-                app:srcCompat="@drawable/queen_black" />
+                app:srcCompat="@drawable/queen_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bKing1"
@@ -1082,7 +1090,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__E8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__E8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__E8"
-                app:srcCompat="@drawable/king_black" />
+                app:srcCompat="@drawable/king_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bBishop2"
@@ -1093,7 +1102,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__F8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__F8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__F8"
-                app:srcCompat="@drawable/bishop_black" />
+                app:srcCompat="@drawable/bishop_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bKnight2"
@@ -1104,7 +1114,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__G8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__G8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__G8"
-                app:srcCompat="@drawable/knight_black" />
+                app:srcCompat="@drawable/knight_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bRook2"
@@ -1115,7 +1126,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__H8"
                 app:layout_constraintStart_toStartOf="@+id/gmb__H8"
                 app:layout_constraintTop_toTopOf="@+id/gmb__H8"
-                app:srcCompat="@drawable/rook_black" />
+                app:srcCompat="@drawable/rook_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn1"
@@ -1126,7 +1138,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__A7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__A7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__A7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn2"
@@ -1137,7 +1150,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__B7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__B7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__B7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn3"
@@ -1148,7 +1162,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__C7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__C7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__C7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn4"
@@ -1159,7 +1174,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__D7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__D7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__D7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn5"
@@ -1170,7 +1186,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__E7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__E7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__E7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn6"
@@ -1181,7 +1198,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__F7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__F7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__F7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn7"
@@ -1192,7 +1210,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__G7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__G7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__G7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__bPawn8"
@@ -1203,7 +1222,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__H7"
                 app:layout_constraintStart_toStartOf="@+id/gmb__H7"
                 app:layout_constraintTop_toTopOf="@+id/gmb__H7"
-                app:srcCompat="@drawable/pawn_black" />
+                app:srcCompat="@drawable/pawn_black"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wRook1"
@@ -1214,7 +1234,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__A1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__A1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__A1"
-                app:srcCompat="@drawable/rook_white" />
+                app:srcCompat="@drawable/rook_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wKnight1"
@@ -1225,7 +1246,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__B1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__B1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__B1"
-                app:srcCompat="@drawable/knight_white" />
+                app:srcCompat="@drawable/knight_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wBishop1"
@@ -1236,7 +1258,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__C1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__C1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__C1"
-                app:srcCompat="@drawable/bishop_white" />
+                app:srcCompat="@drawable/bishop_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wQueen1"
@@ -1247,7 +1270,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__D1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__D1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__D1"
-                app:srcCompat="@drawable/queen_white" />
+                app:srcCompat="@drawable/queen_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wKing1"
@@ -1258,7 +1282,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__E1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__E1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__E1"
-                app:srcCompat="@drawable/king_white" />
+                app:srcCompat="@drawable/king_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wBishop2"
@@ -1269,7 +1294,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__F1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__F1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__F1"
-                app:srcCompat="@drawable/bishop_white" />
+                app:srcCompat="@drawable/bishop_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wKnight2"
@@ -1280,7 +1306,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__G1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__G1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__G1"
-                app:srcCompat="@drawable/knight_white" />
+                app:srcCompat="@drawable/knight_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wRook2"
@@ -1291,7 +1318,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__H1"
                 app:layout_constraintStart_toStartOf="@+id/gmb__H1"
                 app:layout_constraintTop_toTopOf="@+id/gmb__H1"
-                app:srcCompat="@drawable/rook_white" />
+                app:srcCompat="@drawable/rook_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn1"
@@ -1302,7 +1330,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__A2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__A2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__A2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn2"
@@ -1313,7 +1342,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__B2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__B2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__B2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn3"
@@ -1324,7 +1354,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__C2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__C2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__C2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn4"
@@ -1335,7 +1366,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__D2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__D2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__D2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn5"
@@ -1346,7 +1378,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__E2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__E2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__E2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn6"
@@ -1357,7 +1390,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__F2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__F2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__F2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn7"
@@ -1368,7 +1402,8 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__G2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__G2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__G2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
             <ImageView
                 android:id="@+id/gmp__wPawn8"
@@ -1379,121 +1414,122 @@
                 app:layout_constraintEnd_toEndOf="@+id/gmb__H2"
                 app:layout_constraintStart_toStartOf="@+id/gmb__H2"
                 app:layout_constraintTop_toTopOf="@+id/gmb__H2"
-                app:srcCompat="@drawable/pawn_white" />
+                app:srcCompat="@drawable/pawn_white"
+                tools:visibility="invisible" />
 
-<!--            <com.google.android.material.floatingtoolbar.FloatingToolbarLayout-->
-<!--                android:id="@+id/ftbWhite_promotion"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="bottom|center"-->
-<!--                android:elevation="1dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="@+id/gmb__C4"-->
-<!--                app:layout_constraintEnd_toStartOf="@+id/gmb__D8"-->
-<!--                app:layout_constraintStart_toEndOf="@+id/gmb__B8"-->
-<!--                app:layout_constraintTop_toTopOf="@+id/gmb__C7">-->
+            <!--            <com.google.android.material.floatingtoolbar.FloatingToolbarLayout-->
+            <!--                android:id="@+id/ftbWhite_promotion"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="bottom|center"-->
+            <!--                android:elevation="1dp"-->
+            <!--                app:layout_constraintBottom_toBottomOf="@+id/gmb__C4"-->
+            <!--                app:layout_constraintEnd_toStartOf="@+id/gmb__D8"-->
+            <!--                app:layout_constraintStart_toEndOf="@+id/gmb__B8"-->
+            <!--                app:layout_constraintTop_toTopOf="@+id/gmb__C7">-->
 
-<!--                &lt;!&ndash; floating toolbar sample content &ndash;&gt;-->
-<!--                <LinearLayout-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:orientation="vertical">-->
+            <!--                &lt;!&ndash; floating toolbar sample content &ndash;&gt;-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:orientation="vertical">-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_white_queen"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/queen_white"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_white_queen"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/queen_white"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_white_knight"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/knight_white"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_white_knight"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/knight_white"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_white_rook"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/rook_white"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_white_rook"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/rook_white"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_white_bishop"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/bishop_white"-->
-<!--                        app:iconTint="@null" />-->
-<!--                </LinearLayout>-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_white_bishop"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/bishop_white"-->
+            <!--                        app:iconTint="@null" />-->
+            <!--                </LinearLayout>-->
 
-<!--            </com.google.android.material.floatingtoolbar.FloatingToolbarLayout>-->
+            <!--            </com.google.android.material.floatingtoolbar.FloatingToolbarLayout>-->
 
-<!--            <com.google.android.material.floatingtoolbar.FloatingToolbarLayout-->
-<!--                android:id="@+id/ftbBlack_promotion"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="bottom|center"-->
-<!--                android:elevation="1dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="@+id/gmb__F2"-->
-<!--                app:layout_constraintEnd_toEndOf="@+id/gmb__F6"-->
-<!--                app:layout_constraintStart_toEndOf="@+id/gmb__E6"-->
-<!--                app:layout_constraintTop_toBottomOf="@+id/gmb__F6">-->
+            <!--            <com.google.android.material.floatingtoolbar.FloatingToolbarLayout-->
+            <!--                android:id="@+id/ftbBlack_promotion"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="bottom|center"-->
+            <!--                android:elevation="1dp"-->
+            <!--                app:layout_constraintBottom_toBottomOf="@+id/gmb__F2"-->
+            <!--                app:layout_constraintEnd_toEndOf="@+id/gmb__F6"-->
+            <!--                app:layout_constraintStart_toEndOf="@+id/gmb__E6"-->
+            <!--                app:layout_constraintTop_toBottomOf="@+id/gmb__F6">-->
 
-<!--                &lt;!&ndash; floating toolbar sample content &ndash;&gt;-->
-<!--                <LinearLayout-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:orientation="vertical">-->
+            <!--                &lt;!&ndash; floating toolbar sample content &ndash;&gt;-->
+            <!--                <LinearLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:orientation="vertical">-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_black_queen"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/queen_black"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_black_queen"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/queen_black"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_black_knight"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/knight_black"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_black_knight"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/knight_black"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_black_rook"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/rook_black"-->
-<!--                        app:iconTint="@null" />-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_black_rook"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/rook_black"-->
+            <!--                        app:iconTint="@null" />-->
 
-<!--                    <Button-->
-<!--                        android:id="@+id/promote_black_bishop"-->
-<!--                        style="?attr/materialIconButtonFilledStyle"-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:checkable="true"-->
-<!--                        app:icon="@drawable/bishop_black"-->
-<!--                        app:iconTint="@null" />-->
-<!--                </LinearLayout>-->
+            <!--                    <Button-->
+            <!--                        android:id="@+id/promote_black_bishop"-->
+            <!--                        style="?attr/materialIconButtonFilledStyle"-->
+            <!--                        android:layout_width="wrap_content"-->
+            <!--                        android:layout_height="wrap_content"-->
+            <!--                        android:checkable="true"-->
+            <!--                        app:icon="@drawable/bishop_black"-->
+            <!--                        app:iconTint="@null" />-->
+            <!--                </LinearLayout>-->
 
-<!--            </com.google.android.material.floatingtoolbar.FloatingToolbarLayout>-->
+            <!--            </com.google.android.material.floatingtoolbar.FloatingToolbarLayout>-->
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
