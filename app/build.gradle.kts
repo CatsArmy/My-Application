@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("com.google.relay") version "0.3.12"
+    // id("com.google.relay") version "0.3.12"
 }
 
 android {
